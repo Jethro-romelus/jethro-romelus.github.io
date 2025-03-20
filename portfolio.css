@@ -1,0 +1,301 @@
+/* SECTION CONTACT */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: #111;
+    color: white;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 230, 230, 0.4);
+}
+
+/* Titre */
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact h2 span {
+    color: #00e6e6;
+}
+
+/* Texte descriptif */
+.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Formulaire */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 15px; /* Espace entre les champs */
+}
+
+/* Style des champs */
+.input-group {
+    width: 90%;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(0, 230, 230, 0.5);
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 230, 230, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #00e6e6;
+    box-shadow: 0 0 15px rgba(0, 230, 230, 0.7);
+}
+
+/* Champ de texte */
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Style du bouton */
+.contact .btn {
+    background-color: #00e6e6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 230, 230, 0.5);
+}
+
+.contact .btn:hover {
+    background-color: #00cccc;
+    box-shadow: 0 0 15px rgba(0, 230, 230, 0.7);
+}
+
+
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Barre de navigation */
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #00d2c6;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00d2c6;
+}
+
+/* Section d'accueil */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.highlight {
+    color: #00d2c6;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #00d2c6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #00b5a1;
+}
+
+/* Image */
+.image img {
+    width: 400px;
+    max-width: 100%;
+}
+/* Section À propos */
+.about {
+    max-width: 80%; /* Largeur maximale */
+    margin: auto; /* Centrer sur la page */
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center; /* Centrer le titre */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Contenu principal */
+.about-content {
+    display: flex; /* Mise en page en ligne */
+    align-items: center; /* Alignement vertical */
+    justify-content: space-between; /* Espacement entre texte et image */
+    gap: 50px; /* Espacement entre éléments */
+}
+
+/* Texte */
+.about-text {
+    flex: 1; /* Le texte prend toute la place disponible */
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Image */
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #00e6e6;
+    object-fit: cover; /* Ajuster l’image pour éviter la déformation */
+}
+
+
+/* Section Projets */
+.projects {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Compétences */
+.skills {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.progress {
+    height: 10px;
+    background-color: #00d2c6;
+    border-radius: 5px;
+}
+/* Section Carte */
+.map-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+/* Pied de page (Footer) */
+footer {
+    text-align: center; /* Centre le texte */
+    background-color: black; /* Fond noir */
+    color: white; /* Texte blanc */
+    padding: 15px 0; /* Espacement en haut et en bas */
+    font-size: 14px; /* Taille du texte */
+    position: relative; /* Position normale */
+    width: 100%; /* Occupe toute la largeur */
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Jethro ROMELUS</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Jethro <span>ROMÉLUS</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#map">Localisation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Hello, Bienvenue sur mon Portfolio! Je suis <span class="highlight">Jethro ROMÉLUS</span>,</h1>
+            <p>Ingénieur industriel en formation, Analyste de données junior et développeur en devenir passionné par le web et le design !</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+        <div class="image">
+            <img src="web.avif" alt="Illustration Développement Web">
+        </div>
+    </section>
+
+    <!-- SECTION À PROPOS -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je m'appelle <span class="highlight">Jethro ROMÉLUS</span>, étudiant mémorant en génie industriel à l’Université Quisqueya (UNIQ), Analyste de Données Junior certifié par Google. Passionné par l'innovation, j'aime concevoir des sites web modernes et interactifs tout en explorant l’univers des données et de l’optimisation des processus..</p>
+                <p>Actuellement, je me forme en <span class="highlight">développement web avec l'organisation internationale de la francophonie (OIF) sur la plateforme DCLIC</span> où j’approfondis mes compétences en JavaScript, HTML et CSS.</p>
+                <p>Curieux et créatif, j’aime transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies pour apporter des solutions innovantes..</p>
+                <a href="Jethro ROMELUS-Curriculum Vitae.pdf" class="btn">Télécharger mon CV</a>
+            </div>
+            <div class="about-image">
+                <img src="jethro.jpg" alt="Photo de Jethro">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section id="projects" class="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <p>Un plan de maintenance préventive pour une génératrice Caterpillar avec un Dashboard associé</p>
+                <span>#Excel #Sécurité industrielle</span>
+                <a href="Preventive maintenance pour une generatrice caterpillar.xlsx" class="btn">Voir</a>
+            </div>
+            <div class="project-card">
+                <p>Analyse de données avec Python en utilisant des techniques de statistiques descriptive</p>
+                <a href="python_projet.html" class="btn">Voir</a>
+            </div>
+            <div class="project-card">
+                <p>Base de données permettant la gestion des comptes bancaires en utilisant des outils comme MySQL Workbench et ErdPlus</p>
+                <a href="DATABASE_PROJECT.pdf" class="btn">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION COMPÉTENCES -->
+    <section id="skills" class="skills">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <p>Flexibilité et Adaptabilité</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                <p>Résolution de problèmes</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <p>Esprit Technique</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <p>HTML</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                <p>CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="hard-skills">
+                <h3>Engineering Skills</h3>
+                <p>Optimisation des processus</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                <p>Gestion de la Chaine Logistique</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <p>Gestion de la qualité</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Vous avez un <span>projet en tête ?</span></h2>
+        <p>N'hésitez pas à me contacter</p>
+        
+        <form class="form-container">
+            <div class="input-group">
+                <input type="text" name="prenom" placeholder="Votre prénom" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="sujet" placeholder="Votre sujet" required>
+            </div>
+            <div class="input-group">
+                <textarea name="message" placeholder="Écrivez votre message ici !" required></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>    
+
+<!-- SECTION CARTE -->
+<section id="map" class="map-section">
+    <h2>Ma Localisation</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1316696746244!2d-72.28646602576134!3d18.568101667722534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb9e707403e9671%3A0x73c5d50c87a9dc6e!2sGerald%20Bataille!5e0!3m2!1sfr!2sht!4v1742489986874!5m2!1sfr!2sht" 
+            width="100%" 
+            height="400" 
+            style="border:0; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Jethro ROMÉLUS. Tous droits réservés.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
